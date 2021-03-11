@@ -1,5 +1,5 @@
-# datagen
-Gerador de pessoas
+# Gerador de pessoas - Datagen
+Pequeno gerador de pessoas gratuito
 
 # Aviso
 por enquanto ele só gera e mostra no terminal,porém,logo ele servirá como módulo
