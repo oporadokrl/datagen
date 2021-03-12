@@ -589,7 +589,50 @@ NOMES = [
     "Thiago",
     "Thomas",
     "Thomaz",
-    "Tibúrcio","Ticiano","Tierry","Timóteo","Tito","Tom","Tomaz","Tristão","Troy","Túlio","Ubirajara","Ubiratã","Urbano","Uriel","Valdemar","Valentino","Vanderlei","Vasco","Venâncio","Veríssimo","Vicenzo","Victor","Vílmar","Vilson","Vinícius","Virgílio","Vital","Vítor","Vladimir","Wagner","Waldir","Waldo","Wallace","Walter","Washington","Watson","Webster","Weller","Wellington","Wendel","Wesley","Will","William","Wilson",
+    "Tibúrcio",
+    "Ticiano",
+    "Tierry",
+    "Timóteo",
+    "Tito",
+    "Tom",
+    "Tomaz",
+    "Tristão",
+    "Troy",
+    "Túlio",
+    "Ubirajara",
+    "Ubiratã",
+    "Urbano",
+    "Uriel",
+    "Valdemar",
+    "Valentino",
+    "Vanderlei",
+    "Vasco",
+    "Venâncio",
+    "Veríssimo",
+    "Vicenzo",
+    "Victor",
+    "Vílmar",
+    "Vilson",
+    "Vinícius",
+    "Virgílio",
+    "Vital",
+    "Vítor",
+    "Vladimir",
+    "Wagner",
+    "Waldir",
+    "Waldo",
+    "Wallace",
+    "Walter",
+    "Washington",
+    "Watson",
+    "Webster",
+    "Weller",
+    "Wellington",
+    "Wendel",
+    "Wesley",
+    "Will",
+    "William",
+    "Wilson",
 ]
 SOBRENOMES = ['ALMEIDA', 'ALVES', 'ANDRADE', 'BARBOSA', 'BARROS', 'BATISTA', 'BORGES', 'CAMPOS', 'CARDOSO', 'CARVALHO', 'CASTRO',
     'COSTA', 'DIAS', 'DUARTE', 'FREITAS', 'FERNANDES', 'FERREIRA', 'GARCIA', 'GOMES', 'GONÇALVES', 'LIMA', 'LOPES', 'MACHADO', 'MARQUES', 'MARTINS', 'MEDEIROS',
@@ -641,7 +684,7 @@ placa6 = placa_gen[ransom1]
 ESTADOS = [
     'Acre','Alagoas','Amapá','Amazonas','Bahia','Ceará','Distrito Federal','Espírito Santo','Goiás','Maranhão','Mato Grosso','Mato Grosso do Sul','Minas Gerais','Pará','Paraíba','Paraná','Pernambuco','Piauí','Rio de Janeiro','Rio Grande do Norte','Rio Grande do Sul','Rondônia','Roraima','Santa Catarina','São Paulo','Sergipe','Tocantins',
 ]
-ransom = randint(0,27)
+ransom = randint(0,26)
 if ransom == 0:
     shortname = "AC"
 elif ransom == 1:
@@ -699,11 +742,12 @@ elif ransom == 26:
 else:
     shortname = "error"
 print(shortname)
-print(ESTADOS[ransom])
+estado=ESTADOS[ransom]
 print(age)
 print(pnome)
 print(snome)
 print(tsangue)
-print('{}/{}/{}'.format(day,month,year))
+nascimento=('{}/{}/{}'.format(day,month,year))
 print(signo)
-print('{}{}{}-{}{}{}{}'.format(placa0,placa1,placa2,placa3,placa4,placa5,placa6))
+placa=('{}{}{}-{}{}{}{}'.format(placa0,placa1,placa2,placa3,placa4,placa5,placa6))
+#return shortname,estado,age,pnome,snome,tsangue,nascimento,signo,placa
