@@ -1,6 +1,9 @@
 # Gerador de pessoas - Datagen
 Pequeno gerador de pessoas gratuito
 
+# proximo update
+dia 15/07
+
 # Aviso
 por enquanto ele só gera e mostra no terminal,porém,logo ele servirá como módulo
 
